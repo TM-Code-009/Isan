@@ -1,4 +1,6 @@
-import { FaChartBar, FaShieldAlt, FaUsers } from "react-icons/fa";
+import img from "../../assets/sec2-1.png"
+import img1 from "../../assets/sec2-2.png"
+import img2 from "../../assets/sec3-3.png"
 
 const Sec2 = () => {
   return (
@@ -19,8 +21,8 @@ and progress.
 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 {/* Card 1 */}
 <div className="bg-white rounded-2xl shadow-sm p-6 text-left">
-<div className="w-12 h-12 flex items-center justify-center rounded-xl bg-blue-100 text-blue-600 mb-4">
-<FaChartBar size={22} />
+<div className="w-12 h-12 flex items-center justify-center rounded-xl bg-[#00B1FF] text-blue-600 mb-4">
+<img src={img} alt="" width={22} height={22} />
 </div>
 <h3 className="font-semibold text-lg text-gray-900 mb-2">
 Market Intelligence
@@ -34,8 +36,8 @@ the Nigerian economy.
 
 {/* Card 2 */}
 <div className="bg-white rounded-2xl shadow-sm p-6 text-left">
-<div className="w-12 h-12 flex items-center justify-center rounded-xl bg-blue-100 text-blue-600 mb-4">
-<FaShieldAlt size={22} />
+<div className="w-12 h-12 flex items-center justify-center rounded-xl bg-[#00B1FF] text-blue-600 mb-4">
+<img src={img1} alt="" width={22} height={22} />
 </div>
 <h3 className="font-semibold text-lg text-gray-900 mb-2">
 Welfare &amp; Protection
@@ -49,8 +51,8 @@ peace of mind for you and your loved ones.
 
 {/* Card 3 */}
 <div className="bg-white rounded-2xl shadow-sm p-6 text-left">
-<div className="w-12 h-12 flex items-center justify-center rounded-xl bg-blue-100 text-blue-600 mb-4">
-<FaUsers size={22} />
+<div className="w-12 h-12 flex items-center justify-center rounded-xl bg-[#00B1FF] text-blue-600 mb-4">
+<img src={img2} alt="" width={22} height={22} />
 </div>
 <h3 className="font-semibold text-lg text-gray-900 mb-2">
 Networking

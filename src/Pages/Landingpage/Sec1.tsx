@@ -1,4 +1,6 @@
-import { FaNetworkWired, FaGlobe, FaGraduationCap } from "react-icons/fa";
+import img from "../../assets/Discord Other.png"
+import img1 from "../../assets/1.png"
+import img2 from "../../assets/Discord Other (Unnamed)-1.png"
 
 const Sec1 = () => {
   return (
@@ -24,7 +26,7 @@ const Sec1 = () => {
           {/* CARD 1 */}
           <div className="bg-sky-50 rounded-xl p-6">
             <div className="w-10 h-10 flex items-center justify-center bg-sky-500 text-white rounded-lg mb-4">
-              <FaNetworkWired />
+              <img src={img} alt="" width={22} height={22} />
             </div>
 
             <h3 className="font-semibold text-black mb-2">
@@ -40,7 +42,7 @@ const Sec1 = () => {
           {/* CARD 2 */}
           <div className="bg-sky-50 rounded-xl p-6">
             <div className="w-10 h-10 flex items-center justify-center bg-sky-500 text-white rounded-lg mb-4">
-              <FaGlobe />
+              <img src={img1} alt="" width={22} height={22} />
             </div>
 
             <h3 className="font-semibold text-black mb-2">
@@ -56,7 +58,7 @@ const Sec1 = () => {
           {/* CARD 3 */}
           <div className="bg-sky-50 rounded-xl p-6">
             <div className="w-10 h-10 flex items-center justify-center bg-sky-500 text-white rounded-lg mb-4">
-              <FaGraduationCap />
+              <img src={img2} alt="" width={22} height={22} />
             </div>
 
             <h3 className="font-semibold text-black mb-2">
