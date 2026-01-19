@@ -1,19 +1,78 @@
-import img from "../../assets/sec1.png"
-
+import { FaNetworkWired, FaGlobe, FaGraduationCap } from "react-icons/fa";
 
 const Sec1 = () => {
   return (
-    <div className="flex flex-col md:flex-row h-[400px] md:gap-20 lg:gap-50  w-full md:px-10 p-5 gap-10 md:p-25 items-center justify-center   " >
+    <section className="w-full bg-white py-16 md:py-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div>
-            <h1 className="text-[30px] text-sky-400 font-bold text-center md:text-left " >Market Reform Champions</h1>
-            <p className="md:w-[350px] text-center md:text-left " >We pioneered the Central Securities Clearing System (CSCS), Trade Alert, and e-transactions in Nigeria.</p>
+        {/* HEADER */}
+        <div className="text-center max-w-3xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-black">
+            A Legacy of Advocacy Since 1998
+          </h2>
+
+          <p className="mt-4 text-sm sm:text-base text-gray-700 leading-relaxed">
+            Inaugurated in 1998, ISAN has focused on articulating the interests of
+            minority shareholders through good corporate governance. We have
+            championed landmark reforms in the Nigerian Capital Market, including:
+          </p>
         </div>
-        
-        <img src={img} alt="" className="md:h-[350px] md:w-[400px] h-[200] w-[200] " />
 
-    </div>
-  )
-}
+        {/* CARDS */}
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          
+          {/* CARD 1 */}
+          <div className="bg-sky-50 rounded-xl p-6">
+            <div className="w-10 h-10 flex items-center justify-center bg-sky-500 text-white rounded-lg mb-4">
+              <FaNetworkWired />
+            </div>
 
-export default Sec1
+            <h3 className="font-semibold text-black mb-2">
+              Digital Evolution
+            </h3>
+
+            <p className="text-sm text-gray-700 leading-relaxed">
+              Early proponents of the Central Securities Clearing System (CSCS)
+              and e-transactions.
+            </p>
+          </div>
+
+          {/* CARD 2 */}
+          <div className="bg-sky-50 rounded-xl p-6">
+            <div className="w-10 h-10 flex items-center justify-center bg-sky-500 text-white rounded-lg mb-4">
+              <FaGlobe />
+            </div>
+
+            <h3 className="font-semibold text-black mb-2">
+              National Reach
+            </h3>
+
+            <p className="text-sm text-gray-700 leading-relaxed">
+              Headquartered in Lagos with eight zonal offices across Nigeria
+              and offshore contacts in the UK and USA.
+            </p>
+          </div>
+
+          {/* CARD 3 */}
+          <div className="bg-sky-50 rounded-xl p-6">
+            <div className="w-10 h-10 flex items-center justify-center bg-sky-500 text-white rounded-lg mb-4">
+              <FaGraduationCap />
+            </div>
+
+            <h3 className="font-semibold text-black mb-2">
+              Education-First
+            </h3>
+
+            <p className="text-sm text-gray-700 leading-relaxed">
+              Our "most potent weapon" is the continuous enlightenment of
+              members to create wealth.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Sec1;
