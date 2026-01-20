@@ -20,7 +20,7 @@ const Header = () => {
 
         {/* DESKTOP NAV */}
         <nav className="hidden lg:flex items-center gap-8 text-sm font-medium text-gray-800">
-          <a href="#" className="hover:text-sky-500">Events</a>
+          <a href="/events" className="hover:text-sky-500">Events</a>
           <a href="#" className="hover:text-sky-500">AGM Calendar</a>
           <a href="#" className="hover:text-sky-500">Membership</a>
           <a href="#" className="hover:text-sky-500">Library</a>
@@ -50,7 +50,7 @@ const Header = () => {
       {open && (
         <div className="lg:hidden border-t border-gray-200 bg-white">
           <nav className="flex flex-col px-4 py-6 gap-4 text-sm font-medium text-gray-800">
-            <a href="#" className="hover:text-sky-500">Events</a>
+            <a href="/events" className="hover:text-sky-500">Events</a>
             <a href="#" className="hover:text-sky-500">AGM Calendar</a>
             <a href="#" className="hover:text-sky-500">Membership</a>
             <a href="#" className="hover:text-sky-500">Library</a>
