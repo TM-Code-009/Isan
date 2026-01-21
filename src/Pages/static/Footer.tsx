@@ -101,7 +101,7 @@ const Footer = () => {
               <h4 className=" font-semibold mb-3 text-sky-400 ">Quick Links</h4>
               <ul className="space-y-2 text-sm text-gray-300">
                 <a href="/events"><li className="hover:text-sky-400 cursor-pointer">Events</li></a>
-                <a href=""><li className="hover:text-sky-400 cursor-pointer">AGM Calendar</li></a>
+                <a href="/agmcalender"><li className="hover:text-sky-400 cursor-pointer">AGM Calendar</li></a>
                 <a href=""><li className="hover:text-sky-400 cursor-pointer">Library</li></a>
                 <a href=""><li className="hover:text-sky-400 cursor-pointer">Membership</li></a>
                 <a href=""><li className="hover:text-sky-400 cursor-pointer">Gallery</li></a>
