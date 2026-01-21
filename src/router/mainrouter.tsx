@@ -4,14 +4,12 @@ import Landingpage from '../Pages/Landingpage/Landingpage'
 import Events from '../Pages/Events/Events'
 
 export const Mainrouter = createBrowserRouter([
-    {
-        path:"/",
-        element:<Layout/>,
-        children: [
-            {path:"/",element: <Landingpage/>},
-            {path:"/events",element: <Events/>},
-
-        ]
-    }
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      { index: true, element: <Landingpage /> }, // home page
+      { path: "events", element: <Events /> },   // /events
+    ],
+  },
 ])
-
