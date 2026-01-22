@@ -2,11 +2,11 @@ import Hero from "./Hero"
 import Sec1 from "./Sec1"
 import Sec2 from "./Sec2"
 import Sec3 from "./Sec3"
-import Sec4 from "./Sec4"
-import Sec5 from "./Sec5"
+import { Sec4 } from "./Sec4"
+import { Sec5 } from "./Sec5"
 
 
-const Events:any = () => {
+const Libary = () => {
   return (
     <div>
         <Hero/>
@@ -19,4 +19,4 @@ const Events:any = () => {
   )
 }
 
-export default Events
+export default Libary

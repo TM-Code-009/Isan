@@ -3,6 +3,8 @@ import Layout from '../Layout/Layout'
 import Landingpage from '../Pages/Landingpage/Landingpage'
 import Events from '../Pages/Events/Events'
 import AGMCalender from '../Pages/AGMCalender/AGMCalender'
+import Membership from '../Pages/Membership/Membership'
+import Libary from '../Pages/Libary/Libary'
 
 export const Mainrouter = createBrowserRouter([
   {
@@ -12,6 +14,8 @@ export const Mainrouter = createBrowserRouter([
       { index: true, element: <Landingpage /> },
       { path: "events", element: <Events /> },   
       { path: "agmcalender", element: <AGMCalender /> },  
+      { path: "membership", element: <Membership /> },  
+      { path: "libary", element: <Libary /> },  
     ],
   },
 ])

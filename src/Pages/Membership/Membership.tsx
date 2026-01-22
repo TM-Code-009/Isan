@@ -6,7 +6,7 @@ import Sec4 from "./Sec4"
 import Sec5 from "./Sec5"
 
 
-const Events:any = () => {
+const Membership = () => {
   return (
     <div>
         <Hero/>
@@ -19,4 +19,4 @@ const Events:any = () => {
   )
 }
 
-export default Events
+export default Membership

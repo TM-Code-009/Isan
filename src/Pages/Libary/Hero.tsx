@@ -11,11 +11,12 @@ const Hero = () => {
                 </div>
         
         <h1 className="text-2xl font-bold sm:text-3xl lg:text-[50px] text-white">
-          AGM Calendar: 2024 - 2025 Schedule
+          Library: Resources for the Empowered Investor
         </h1>
 
         <p className="mt-4 text-sm sm:text-base text-white/90 max-w-xl mx-auto lg:max-w-[1000px] ">
-          The Annual General Meeting (AGM) is the most critical event for any shareholder. It is your platform to receive and approve financial reports, elect committee members, and hold leadership accountable. In line with our commitment to transparency and accountability, ISAN provides this centralized schedule to ensure every member can exercise their rights.        </p>
+          The Annual General Meeting (AGM) is the most critical event for any shareholder. It is your platform to receive and approve financial reports, elect committee members, and hold leadership accountable. In line with our commitment to transparency and accountability, ISAN provides this centralized schedule to ensure every member can exercise their rights. 
+          </p>
 
     
       </div>

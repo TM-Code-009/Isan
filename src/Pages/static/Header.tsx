@@ -22,8 +22,8 @@ const Header = () => {
         <nav className="hidden lg:flex items-center gap-8 text-sm font-medium text-gray-800">
           <a href="/events" className="hover:text-sky-500">Events</a>
           <a href="/agmcalender" className="hover:text-sky-500">AGM Calendar</a>
-          <a href="#" className="hover:text-sky-500">Membership</a>
-          <a href="#" className="hover:text-sky-500">Library</a>
+          <a href="/membership" className="hover:text-sky-500">Membership</a>
+          <a href="/libary" className="hover:text-sky-500">Library</a>
           <a href="#" className="hover:text-sky-500">Rent Space</a>
         </nav>
 
@@ -52,8 +52,8 @@ const Header = () => {
           <nav className="flex flex-col px-4 py-6 gap-4 text-sm font-medium text-gray-800">
             <a href="/events" className="hover:text-sky-500">Events</a>
             <a href="/agmcalender" className="hover:text-sky-500">AGM Calendar</a>
-            <a href="#" className="hover:text-sky-500">Membership</a>
-            <a href="#" className="hover:text-sky-500">Library</a>
+            <a href="/membership" className="hover:text-sky-500">Membership</a>
+            <a href="/libary" className="hover:text-sky-500">Library</a>
             <a href="#" className="hover:text-sky-500">Rent Space</a>
 
             <div className="pt-4 flex flex-col gap-3">
