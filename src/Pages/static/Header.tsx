@@ -11,11 +11,13 @@ const Header = () => {
         
         {/* LOGO */}
         <div className="flex items-center gap-2">
-          <img
+          <a href="/">
+            <img
   src={img}
   alt="ISAN Logo"
   className="h-[40px] sm:h-[45px] md:h-[50px] w-auto object-contain"
 />
+          </a>
         </div>
 
         {/* DESKTOP NAV */}
