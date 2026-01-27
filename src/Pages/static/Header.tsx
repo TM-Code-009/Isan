@@ -26,7 +26,7 @@ const Header = () => {
           <a href="/agmcalender" className="hover:text-sky-500">AGM Calendar</a>
           <a href="/membership" className="hover:text-sky-500">Membership</a>
           <a href="/libary" className="hover:text-sky-500">Library</a>
-          <a href="#" className="hover:text-sky-500">Rent Space</a>
+          <a href="/rentspace" className="hover:text-sky-500">Rent Space</a>
         </nav>
 
         {/* DESKTOP ACTIONS */}
@@ -56,7 +56,7 @@ const Header = () => {
             <a href="/agmcalender" className="hover:text-sky-500">AGM Calendar</a>
             <a href="/membership" className="hover:text-sky-500">Membership</a>
             <a href="/libary" className="hover:text-sky-500">Library</a>
-            <a href="#" className="hover:text-sky-500">Rent Space</a>
+            <a href="/rentspace" className="hover:text-sky-500">Rent Space</a>
 
             <div className="pt-4 flex flex-col gap-3">
               <button className="w-full py-2 bg-sky-500 text-white rounded-sm">

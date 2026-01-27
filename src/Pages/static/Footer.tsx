@@ -104,7 +104,7 @@ const Footer = () => {
                 <a href="/agmcalender"><li className="hover:text-sky-400 cursor-pointer">AGM Calendar</li></a>
                 <a href="/membership"><li className="hover:text-sky-400 cursor-pointer">Library</li></a>
                 <a href="/libary"><li className="hover:text-sky-400 cursor-pointer">Membership</li></a>
-                <a href=""><li className="hover:text-sky-400 cursor-pointer">Gallery</li></a>
+                <a href="/rentspace"><li className="hover:text-sky-400 cursor-pointer">Gallery</li></a>
               </ul>
             </div>
           </div>
